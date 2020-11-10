@@ -12,6 +12,8 @@ import { PortafolioComponent } from './pages/portafolio/portafolio.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
 import { FiltrarRamasPipe } from './pipes/filtrar-ramas.pipe';
+import { OrderDataPipe } from './pipes/order-data.pipe';
+import { OrderProjectsPipe } from './pipes/order-projects.pipe';
 
 
 @NgModule({
@@ -22,7 +24,9 @@ import { FiltrarRamasPipe } from './pipes/filtrar-ramas.pipe';
     PortafolioComponent,
     AboutComponent,
     ItemComponent,
-    FiltrarRamasPipe
+    FiltrarRamasPipe,
+    OrderDataPipe,
+    OrderProjectsPipe
   ],
   imports: [
     BrowserModule,

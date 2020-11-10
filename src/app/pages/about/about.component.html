@@ -9,20 +9,25 @@
     <div class="blog-info">
         <h5 class="blog-info__author">¿Quién soy?</h5>
     </div>
+    <h6>Soy una persona muy activa en el trabajo y en la vida, creativa, observadora, autodidacta, curiosa, siempre con ganas de aprender aumentando la experiencia y el crecimiento personal.<br> Asumo retos con iniciativa y disposición para mejorar mis propias
+        habilidades y cumplir los objetivos deseados de la empresa, puedo integrarme a equipos de trabajo dando un compromiso constante por la causa y generando resultados positivos.
+    </h6>
 </div>
-<h6>Soy una persona muy activa en el trabajo y en la vida, creativa, observadora, autodidacta, curiosa, siempre con ganas de aprender aumentando la experiencia y el crecimiento personal.<br> Asumo retos con iniciativa y disposición para mejorar mis propias
-    habilidades y cumplir los objetivos deseados de la empresa, puedo integrarme a equipos de trabajo dando un compromiso constante por la causa y generando resultados positivos.
-</h6>
 
 <!-- plantilla datos -->
-<div class="blog-info">
+<div class="blog-info animated fadeIn">
     <h2 class="blog-info__title">Formación y cursos</h2>
 </div>
-<h5 id="hero-image">Informática</h5>
+<h5 id="hero-image animated fadeIn">Informática</h5>
+<hr>
 
-<aside *ngFor="let item of _service.formation">
-    <h5 id="hero-image" *ngIf="item.rama === 'informatica' ">
+<aside class="animated fadeIn" *ngFor="let item of _service.cursos | filtrarRamas">
+    <h5 id="hero-image" [ngStyle]="{
+        'font-weight': item.estudios === 'ciclo' ? 'bold' : 'normal'
+  
+      }">
         <span class="ae-kappa ae-u-bold blog-meta__date">{{item.anno}}</span> {{item.nombre}}
         <span class="ae-kappa ae-u-bold blog-meta__date"> {{item.horas}} horas</span>
+        <span class="ae-kappa ae-u-bold " *ngIf="item.estudios === 'ciclo'" style="color: red;"> Ciclo</span>
     </h5>
 </aside>

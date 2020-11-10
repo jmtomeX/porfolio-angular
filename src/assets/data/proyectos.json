@@ -1,0 +1,65 @@
+ [{
+         "nombre": "Selector de colores rgba",
+         "descripcion": "Selector de colores rgba al seleccionar un color en las barras y generar una muestra lo imprime por pantalla, con la posibilidad de crear variables CSS.",
+         "tecnologias": ["Javascript", "CSS", "HTML"],
+         "anno": "2019",
+         "urlImg": "https://firebasestorage.googleapis.com/v0/b/angular-html-b73cd.appspot.com/o/variables_css.jpg?alt=media&token=612fb0e7-034c-4566-a5e3-553d54bb84ec",
+         "url": "https://www.muchoruidoypocasluces.com/selector_rgb/selector_rgb.html"
+     },
+     {
+         "nombre": "Agencia de viajes",
+         "descripcion": "Proyecto realizado con Bootstrap, solo maquetación.",
+         "tecnologias": ["Html", "Bootstrap"],
+         "anno": "2016",
+         "url": "https://www.muchoruidoypocasluces.com/agencia_viajes/agencia_viajes.html",
+         "urlImg": "https://firebasestorage.googleapis.com/v0/b/angular-html-b73cd.appspot.com/o/bootstrap.jpg?alt=media&token=4c987286-ef48-4ced-8969-e95d0b00504f"
+     },
+     {
+         "nombre": "Aplicación de gastos",
+         "descripcion": "Aplicación web que permite la entrada y consulta de gastos. Gráfica, entrada de gastos manualmente o desde un archivo excell, aplicación móvil desarrollado con Android que utiliza el mismo servicio que la web. (user iremti2@gmail.com passw 11111111).",
+         "tecnologias": ["Laravel", "AdminLTE", "PHP"],
+         "anno": "2020",
+         "url": "http://www.gastos.muchoruidoypocasluces.com/",
+         "urlImg": "https://firebasestorage.googleapis.com/v0/b/angular-html-b73cd.appspot.com/o/gastos.jpg?alt=media&token=864f97f3-093d-4f1e-8204-eebaef922499"
+     },
+     {
+         "nombre": "Restaurante",
+         "descripcion": "Proyecto realizado hecho en HTML puro, con el uso de una librería js para el lightBox",
+         "tecnologias": ["HTML"],
+         "anno": "2014",
+         "url": "https://www.muchoruidoypocasluces.com/mizo/mizo.html",
+         "urlImg": "https://firebasestorage.googleapis.com/v0/b/angular-html-b73cd.appspot.com/o/html2.jpg?alt=media&token=5cfe27b1-c3de-416f-b8a9-0cadafd3ceb9"
+     },
+     {
+         "nombre": "Chat Javascript FullStack",
+         "descripcion": "Proyecto que usa comunicación web bidireccional en tiempo real entre cliente y servidor sobre un único socket TCP.",
+         "tecnologias": ["Html", "Javascript", "node"],
+         "anno": "2019",
+         "urlImg": "https://firebasestorage.googleapis.com/v0/b/angular-html-b73cd.appspot.com/o/chatmode.jpg?alt=media&token=64956943-a8b4-4e5b-ad44-f2db1b836a3a",
+         "url": "https://app-chat-javascript.herokuapp.com/"
+     },
+     {
+         "nombre": "Proyecto Gool.es",
+         "descripcion": "Juego en el que los usuarios deben de hacertar el tiempo que estará un partido sin marcar un gol.",
+         "tecnologias": ["PHP", "Ajax", "Bulma", "Jquery"],
+         "anno": "2019",
+         "urlImg": "https://firebasestorage.googleapis.com/v0/b/angular-html-b73cd.appspot.com/o/php01.jpg?alt=media&token=e4643ebb-6fb3-404a-a9a4-c007e1ad6a1c",
+         "url": "https://www.muchoruidoypocasluces.com/forsale/public/index.php"
+     },
+     {
+         "nombre": "Proyecto ForSale.es",
+         "descripcion": "Desarrollo de una aplicación que gestiona la compra venta de productos de segunda mano, con un servicio para publicitarse en otras webs.",
+         "tecnologias": ["PHP", "Ajax", "Semantic", "Jquery"],
+         "anno": "2019",
+         "urlImg": "https://firebasestorage.googleapis.com/v0/b/angular-html-b73cd.appspot.com/o/php3.jpg?alt=media&token=227829e9-ea27-444c-bdf0-c511cea203e7",
+         "url": "https://www.muchoruidoypocasluces.com/forsale/public/index.php"
+     },
+     {
+         "nombre": "Proyecto Mean Stack",
+         "descripcion": "Desarrollo de una red social con el MEAN Stack (MongoDB, Express, Angular y Node.js) Web completa y funcional, a nivel de backend y frontend, usando únicamente tecnologías JavaScript..",
+         "tecnologias": ["Javascript", "Ajax", "Semantic", "Jquery"],
+         "anno": "2020",
+         "urlImg": "https://firebasestorage.googleapis.com/v0/b/angular-html-b73cd.appspot.com/o/angualr1.jpg?alt=media&token=e735f254-aab7-46ec-a40c-db72a2886a16",
+         "url": "https://coronavirusmetting.herokuapp.com/"
+     }
+ ]

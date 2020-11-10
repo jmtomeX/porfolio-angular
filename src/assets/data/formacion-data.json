@@ -1,5 +1,14 @@
  {
-     "formacion": [{
+     "formacion": [
+
+         {
+             "rama": "informatica",
+             "estudios": "curso",
+             "nombre": "Angular: Convierte cualquier template HTML en una WebAPP ",
+             "anno": "2020",
+             "horas": "15"
+         },
+         {
              "rama": "informatica",
              "estudios": "curso",
              "nombre": "La biblia de Node.js",
@@ -10,7 +19,7 @@
              "rama": "informatica",
              "estudios": "curso",
              "nombre": "Visual Studio Code: Mejora tu velocidad para codificar ",
-             "anno": "2018",
+             "anno": "2020",
              "horas": "2"
          },
          {
