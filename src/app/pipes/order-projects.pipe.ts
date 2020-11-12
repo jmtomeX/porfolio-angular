@@ -8,7 +8,6 @@ export class OrderProjectsPipe implements PipeTransform {
 
   transform(value: Proyecto[], ...args: unknown[]): unknown {
     let projectsOrder: Proyecto[];
-    // console.log(value);
     projectsOrder = value.sort((a, b) => {
       if (a.anno < b.anno) {
         return 1;
@@ -19,6 +18,9 @@ export class OrderProjectsPipe implements PipeTransform {
       }
       return 0;
     });
+    // console.log(projectsOrder);
     return projectsOrder;
+
+
   }
 }

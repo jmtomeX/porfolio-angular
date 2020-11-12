@@ -3,12 +3,14 @@ import { map, filter } from 'rxjs/operators';
 import { HttpClient } from '@angular/common/http';
 import { InfoPagina } from '../interfaces/info-pagina.interfaces';
 import { Curso } from '../models/curso';
+import { AppSettings } from '../config/app-config';
 @Injectable({
   providedIn: 'root'
 })
 export class InfoPaginaService {
   info: InfoPagina = {};
   cursos: Curso[] = [];
+  BASE_PATH = `${AppSettings.API_ENDPOINT}/formacion.json/`;
   curso;
   cargada = false;
   constructor(private http: HttpClient) {
@@ -27,13 +29,13 @@ export class InfoPaginaService {
 
   // leer formación de la base de datos firebase
   private loadFormation() {
-    this.http.get('https://angular-html-b73cd.firebaseio.com/formacion.json')
+    this.http.get(this.BASE_PATH)
       .subscribe((resp: Curso[]) => {
         // comprobamos que llegan todos los datos de cada tarea
         // const map = resp.map((curso) => Curso.fromJson(curso));
         // no añadimos si algún elemento viene como undefined
         // const keys = Object.values(map).filter(x => x !== undefined);
-        // tslint:disable-next-line:no-string-literal
+        // tslint:disable-next-line:no-string-literal       
         this.cursos = resp;
       });
   }

@@ -12,7 +12,6 @@ import { PortafolioComponent } from './pages/portafolio/portafolio.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
 import { FiltrarRamasPipe } from './pipes/filtrar-ramas.pipe';
-import { OrderDataPipe } from './pipes/order-data.pipe';
 import { OrderProjectsPipe } from './pipes/order-projects.pipe';
 
 
@@ -25,7 +24,6 @@ import { OrderProjectsPipe } from './pipes/order-projects.pipe';
     AboutComponent,
     ItemComponent,
     FiltrarRamasPipe,
-    OrderDataPipe,
     OrderProjectsPipe
   ],
   imports: [

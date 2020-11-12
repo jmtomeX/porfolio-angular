@@ -1,7 +1,16 @@
-                /* You can add global styles to this file, and also import other style files */
+                /* Animaciones */
                 
                  :root {
                     --animate-duration: 1s;
+                }
+                
+                body,
+                header.ae-container-fluid.ae-container-fluid--full.rk-header {
+                    background-color: rgba(227, 231, 233, .3);
+                }
+                
+                footer.ae-container-fluid.rk-footer {
+                    padding-top: 2em;
                 }
                 
                 .animated {
@@ -46,4 +55,12 @@
                 .fadeIn {
                     -webkit-animation-name: fadeIn;
                     animation-name: fadeIn
+                }
+                /*
+                Color del Loading
+                */
+                
+                svg path,
+                svg rect {
+                    fill: black;
                 }
