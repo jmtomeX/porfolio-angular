@@ -1,5 +1,8 @@
 <section *ngIf="dataProject && descriptionProject">
     <header>
+        <div class=" item-inside__meta " *ngFor="let logo of dataProject.tecnologias">
+            <img class="logo" width="100" height="100" src="assets\img\logos_lenguajes\{{logo}}.svg" alt="Logo {{logo}}">
+        </div>
         <div class=" item-inside__meta ">
             <h1 class="ae-u-bolder rk-portfolio-title ">{{dataProject.nombre}}</h1>
         </div>
@@ -12,8 +15,8 @@
             <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right rk-portfolio-details ">
                 <p class="rk-portfolio-inner-client "><span class="ae-u-bolder ">Ubicación del proyecto y otros datos</span></p>
                 <p class="au-underline rk-portfolio-inner-website "><a href="{{descriptionProject.url}} " target="_blank" class="ae-kappa ">Ir a la aplicación</a></p>
-                <p class=" rk-portfolio-inner-website " *ngIf="descriptionProject.user">Usuario</p>
-                <p class=" rk-portfolio-inner-website " *ngIf="descriptionProject.password">Contraseña</p>
+                <p class=" rk-portfolio-inner-website rk-portfolio-inner-date" *ngIf="descriptionProject.user">Usuario <span>{{descriptionProject.user}} </span></p>
+                <p class=" rk-portfolio-inner-website rk-portfolio-inner-date" *ngIf="descriptionProject.password">Contraseña <span>{{descriptionProject.password}} </span></p>
                 <p class="ae-kappa ae-u-bold rk-portfolio-inner-date ">Realizada en {{dataProject.anno}}</p>
             </div>
         </div>
@@ -36,21 +39,11 @@
             </div>
         </div>
         <div class="ae-grid ae-grid--collapse au-xs-ptp-1 au-xs-pbp-1 ">
-            <div class="ae-grid__item item-lg-8 item-lg--offset-2 ">
-                <h4 class="ae-u-bolder ">Full Wide Text</h4>
-                <p class="ae-eta ">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p class="ae-eta ">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
-            </div>
-        </div>
-        <div class="ae-grid ae-grid--collapse ">
-            <div class="ae-grid__item item-lg--auto "><img src="{{dataProject.ulrImg}} " alt="Urku Portfolio "></div>
-        </div>
-        <div class="ae-grid ae-grid--collapse ">
-            <div class="ae-grid__item item-lg-6 "><img src="{{dataProject.ulrImg}} " alt="Urku Portfolio "></div>
-            <div class="ae-grid__item item-lg-5 item-lg--offset-1 au-lg-ptp-1 ">
-                <h4 class="ae-u-bolder ">Right Box Text</h4>
-                <p class="ae-eta ">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
-                <p class="ae-eta ">It includes a A6 flyer, A5 folder, A4 horizontal paper and a business card mockup. You can easily put your own graphics and create a new layout according to your needs.</p>
+            <div class="ae-grid__item item-lg-8 item-lg--offset-2 " *ngIf="descriptionProject.descripcion02">
+                <h4 class="ae-u-bolder ">{{descriptionProject.descripcion02Titulo}}</h4>
+                <div class="ae-eta " *ngFor="let item of descriptionProject.descripcion02">
+                    <p class="ae-eta ">{{item}}</p>
+                </div>
             </div>
         </div>
         <div class="ae-grid--alt test ">
