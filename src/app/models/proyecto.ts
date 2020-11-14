@@ -14,7 +14,6 @@ export class Proyecto {
                 }
             }
             console.log(data);
-            
             throw (new Error('Argumento no válido: la estructura del argumento no coincide con los campos del modelo'));
         } catch (e) {
             console.log((e as Error).message);
