@@ -1,16 +1,16 @@
 <header class="ae-container-fluid ae-container-fluid--full rk-header ">
     <input type="checkbox" id="mobile-menu" class="rk-mobile-menu">
     <label for="mobile-menu">
-      <svg>
-        <use xlink:href="assets/img/symbols.svg#bar"></use>
-      </svg>
-      <svg>
-        <use xlink:href="assets/img/symbols.svg#bar"></use>
-      </svg>
-      <svg>
-        <use xlink:href="assets/img/symbols.svg#bar"></use>
-      </svg>
-    </label>
+    <svg>
+      <use xlink:href="assets/img/symbols.svg#bar"></use>
+    </svg>
+    <svg>
+      <use xlink:href="assets/img/symbols.svg#bar"></use>
+    </svg>
+    <svg>
+      <use xlink:href="assets/img/symbols.svg#bar"></use>
+    </svg>
+  </label>
     <div class="ae-container-fluid rk-topbar">
         <h1 class="rk-logo"><a routerLink="home">{{_service.info.titulo}} portfolio<sup> {{_service.info.mini_titulo}}</sup></a></h1>
         <nav class="rk-navigation">
@@ -20,15 +20,16 @@
                 <li class="rk-menu__item" routerLinkActive="active"><a routerLink="/about" class="rk-menu__link">Sobre mí</a>
                 </li>
             </ul>
-            <form class="rk-search">
+            <!-- buscador -->
+            <div class="rk-search">
                 <input type="text" placeholder="
-                Tecnología" id="urku-search" class="rk-search-field">
+              Tecnología" id="urku-search" class="rk-search-field" (keyup.enter)="buscarTecnologia( buscarTexto.value )" #buscarTexto>
                 <label for="urku-search">
-            <svg>
-              <use xlink:href="assets/img/symbols.svg#icon-search"></use>
-            </svg>
-          </label>
-            </form>
+          <svg>
+            <use xlink:href="assets/img/symbols.svg#icon-search"></use>
+          </svg>
+        </label>
+            </div>
         </nav>
     </div>
 </header>

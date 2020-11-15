@@ -1,34 +1,44 @@
 {
     "proyect-1": {
         "descripcion": "Selector de colores rgba al seleccionar un color en las barras y generar una muestra lo imprime por pantalla, con la posibilidad de crear variables CSS.",
-        "url": "https://www.muchoruidoypocasluces.com/selector_rgb/selector_rgb.html"
+        "url": "https://www.muchoruidoypocasluces.com/selector_rgb/selector_rgb.html",
+        "subtitulo": "",
+        "urlGitHub": ""
     },
     "proyect-2": {
         "descripcion": "Proyecto realizado con Bootstrap, solo maquetación.",
-        "url": "https://www.muchoruidoypocasluces.com/agencia_viajes/agencia_viajes.html"
+        "url": "https://www.muchoruidoypocasluces.com/agencia_viajes/agencia_viajes.html",
+        "subtitulo": ""
 
     },
     "proyect-3": {
-        "descripcion": "Aplicación web que permite la entrada y consulta de gastos. Gráfica, entrada de gastos manualmente o desde un archivo excell, aplicación móvil desarrollado con Android que utiliza el mismo servicio que la web. (user iremti2@gmail.com passw 11111111).",
+        "descripcion": "Aplicación web que permite la entrada y consulta de gastos. Gráfica, entrada de gastos manualmente o desde un archivo excell, aplicación móvil desarrollado con Android que utiliza el mismo servicio que la web.",
         "url": "http://www.gastos.muchoruidoypocasluces.com/",
+        "subtitulo": "",
         "password": "11111111",
-        "user": "iremti2@gmail.com"
+        "user": "iremti2@gmail.com",
+        "urlGithub": "https://github.com/jmtomeX/Laravel/tree/master/proyecto-v2-gastos/gastos_v2"
     },
     "proyect-4": {
         "descripcion": "Proyecto realizado hecho en HTML puro, con el uso de una librería js para el lightBox",
-        "url": "https://www.muchoruidoypocasluces.com/mizo/mizo.html"
+        "url": "https://www.muchoruidoypocasluces.com/mizo/mizo.html",
+        "subtitulo": ""
     },
     "proyect-5": {
         "descripcion": "Proyecto que usa comunicación web bidireccional en tiempo real entre cliente y servidor sobre un único socket TCP.",
-        "url": "https://app-chat-javascript.herokuapp.com/"
+        "url": "https://app-chat-javascript.herokuapp.com/",
+        "subtitulo": ""
     },
     "proyect-6": {
         "descripcion": "Juego en el que los usuarios deben de hacertar el tiempo que estará un partido sin marcar un gol.",
-        "url": "https://www.muchoruidoypocasluces.com/goool.es/public/index.php"
+        "url": "https://www.muchoruidoypocasluces.com/goool.es/public/index.php",
+        "subtitulo": ""
     },
     "proyect-7": {
         "descripcion": "Desarrollo de una aplicación que gestiona la compra venta de productos de segunda mano, con un servicio para publicitarse en otras webs.",
-        "url": "https://www.muchoruidoypocasluces.com/forsale/public/index.php"
+        "url": "https://www.muchoruidoypocasluces.com/forsale/public/index.php",
+        "subtitulo": "",
+        "urlGitHub": "https://github.com/jmtomeX/Laravel-anuncios"
     },
     "proyect-8": {
         "descripcion": "Desarrollo de una red social con el MEAN Stack (MongoDB, Express, Angular y Node.js) Web completa y funcional, a nivel de backend y frontend, usando únicamente tecnologías JavaScript..",
@@ -38,15 +48,23 @@
         ],
         "notas": ["En estos momentos la aplicación no tiene la funcionalidad de subir imágenes al servidor ya que Heroku no lo permite.", "Se están estudiando posibilidades."],
         "url": "https://coronavirusmetting.herokuapp.com/",
+        "subtitulo": "",
         "urlGitHub": "https://google.es"
+
 
     },
     "proyect-9": {
         "url": "https://www.muchoruidoypocasluces.com/galeria_carrera/galery_mtb.html",
-        "descripcion": "Galería fotográfica de selección de imágenes en una galería mostrando las seleccionadas en un Modal"
+        "subtitulo": "",
+        "descripcion": "Galería fotográfica de selección de imágenes en una galería mostrando las seleccionadas en un Modal",
+        "urlGitHub": ""
     },
     "proyect-10": {
         "url": "https://www.muchoruidoypocasluces.com",
-        "descripcion": "Página web administrada por Angular y Firebase, desplegar una aplicación a un sitio web y usar GitHub Pages para desplegar sitios y aplicaciones web. "
+        "subtitulo": "",
+        "descripcion": "Página web administrada por Angular y Firebase.",
+        "descripcion02": ["Desplegar una aplicación a un sitio web. ", "Uso de GitHub Pages para desplegar sitios y aplicaciones web."],
+        "descripcion02Titulo": "Portafolio personal ",
+        "urlGitHub": "https://github.com/jmtomeX/porfolio-angular"
     }
 }
