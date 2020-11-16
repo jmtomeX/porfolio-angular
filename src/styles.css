@@ -68,3 +68,21 @@
                 .padding-bottom {
                     padding-bottom: 2em;
                 }
+                
+                .logos {
+                    margin: .3em;
+                    float: left;
+                    /* or inline-flex */
+                }
+                
+                .logos:hover {
+                    filter: hue-rotate(180deg);
+                    -webkit-filter: hue-rotate(180deg);
+                }
+                
+                div.blog-info__excerpt.logos-info {
+                    width: 90%;
+                    height: 100px;
+                    padding-bottom: 2em;
+                    clear: both;
+                }

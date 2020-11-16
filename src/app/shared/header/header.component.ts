@@ -8,10 +8,11 @@ import { InfoPaginaService } from '../../services/info-pagina.service';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-
-  constructor(public _service: InfoPaginaService,
-    private router: Router) { }
-
+  constructor(
+    // tslint:disable-next-line:variable-name
+    public _service: InfoPaginaService,
+    private router: Router
+  ) { }
 
   buscarTecnologia(termino: string) {
     if (termino.length < 1) {

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { ProyectosService } from '../../services/proyectos.service';
 @Component({
   selector: 'app-portafolio',
@@ -7,9 +8,15 @@ import { ProyectosService } from '../../services/proyectos.service';
 })
 export class PortafolioComponent implements OnInit {
 
-  constructor(public projectService: ProyectosService) { }
+  constructor(
+    public projectService: ProyectosService,
+    private router: Router) { }
 
   ngOnInit(): void {
+    console.log(this.projectService.tecnologiasLogos);
+  }
+  search(logo: string) {
+    this.router.navigate(['./search/' + logo]);
   }
 
 }

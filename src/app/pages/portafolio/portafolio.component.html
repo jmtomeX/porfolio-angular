@@ -1,4 +1,14 @@
 <section class="ae-container-fluid ae-container-fluid--inner rk-portfolio">
+    <!-- Tecnologías Logos-->
+    <div class="blog-info__excerpt logos-info">
+        <div class="logos" *ngFor="let logo of projectService.tecnologiasLogos ">
+            <a (click)="search(logo)">
+                <img class="logo " width="55" height="55" src="assets\img\logos_lenguajes\{{logo}}.svg " alt="Logo {{logo}} ">
+            </a>
+        </div>
+    </div>
+    <!-- Fin Tecnologías Logos-->
+
     <!-- loading -->
     <div align="center" *ngIf="projectService.cargando">
         <h2>Cargando...</h2>
@@ -21,11 +31,12 @@
         </div>
         <p>Espere por favor</p>
     </div>
-    <!-- loading -->
+    <!-- Fin loading -->
+
     <div class="blog-info padding-bottom">
         <h2 class="blog-info__title">Proyectos Web</h2>
     </div>
-    <div class="ae-masonry ae-masonry-md-2 ae-masonry-xl-4">
+    <div class="ae-masonry ae-masonry-md-2 ae-masonry-xl-2">
 
         <a [routerLink]="['/item/',item.cod]" *ngFor="let item of projectService.proyectos | orderProjects" class="animated fadeIn rk-item ae-masonry__item">
             <img src="{{item.urlImg}}" alt="">
@@ -36,7 +47,5 @@
 
             </div>
         </a>
-
-
     </div>
 </section>

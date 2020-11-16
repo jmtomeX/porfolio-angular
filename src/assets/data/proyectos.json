@@ -64,7 +64,7 @@
         "subtitulo": "Portafolio personal",
         "descripcion": "Página web administrada por Angular y Firebase. Gracias a Firebase no se usa el backend que necesitaría para crear la aplicación.",
         "descripcion02Titulo": "Características de la aplicación. ",
-        "descripcion02": ["Desplegar una aplicación a un sitio web. ", "Uso de GitHub Pages para desplegar sitios y aplicaciones web.", "Sin necesidad de un backend propio.", "Insercción de datos atraves de archivos json en la base de datos de Firebase.", "Modificación de una plantilla de https://www.pixeden.com/", "Insercción de imagenes en el storage de Firebase."],
+        "descripcion02": ["Uso de GitHub Pages para desplegar sitios y aplicaciones web.", "Sin necesidad de un backend propio.", "Insercción de datos através de archivos json en la base de datos de Firebase.", "Modificación de una plantilla de https://www.pixeden.com/", "Insercción de imágenes en el storage de Firebase.", "Buscar aplicaciones por lenguajes de programación."],
         "urlGitHub": "https://github.com/jmtomeX/porfolio-angular"
     }
 }

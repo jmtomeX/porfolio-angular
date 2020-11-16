@@ -43,7 +43,7 @@
      "urlImg": "https://firebasestorage.googleapis.com/v0/b/angular-html-b73cd.appspot.com/o/php3.jpg?alt=media&token=227829e9-ea27-444c-bdf0-c511cea203e7"
  }, {
      "nombre": "Proyecto Mean Stack",
-     "tecnologias": ["javascript", "semantic", "mongodb", "node"],
+     "tecnologias": ["javascript", "angular", "semantic", "mongodb", "node"],
      "anno": "2020",
      "cod": "proyect-8",
      "urlImg": "https://firebasestorage.googleapis.com/v0/b/angular-html-b73cd.appspot.com/o/angualr1.jpg?alt=media&token=e735f254-aab7-46ec-a40c-db72a2886a16"

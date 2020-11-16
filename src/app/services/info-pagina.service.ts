@@ -35,7 +35,7 @@ export class InfoPaginaService {
         // const map = resp.map((curso) => Curso.fromJson(curso));
         // no añadimos si algún elemento viene como undefined
         // const keys = Object.values(map).filter(x => x !== undefined);
-        // tslint:disable-next-line:no-string-literal       
+        // tslint:disable-next-line:no-string-literal
         this.cursos = resp;
       });
   }

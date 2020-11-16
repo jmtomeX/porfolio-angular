@@ -21,9 +21,9 @@
 </div>
 <!-- loading -->
 <div class="blog-info padding-bottom">
-    <h2 class="blog-info__title">Coincidencias con la busqueda {{busqueda}}</h2>
+    <h2 class="blog-info__title">Proyectos realizados con {{busqueda}}</h2>
 </div>
-<div class="ae-masonry ae-masonry-md-2 ae-masonry-xl-4">
+<div class="ae-masonry ae-masonry-md-2 ae-masonry-xl-2">
 
     <a [routerLink]="['/item/',item.cod]" *ngFor="let item of projectService.proyectosFiltrado | orderProjects" class="animated fadeIn rk-item ae-masonry__item">
         <img src="{{item.urlImg}}" alt="">
