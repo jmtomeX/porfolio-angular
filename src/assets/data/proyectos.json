@@ -44,7 +44,7 @@
         "descripcion": "Desarrollo de una red social con el MEAN Stack (MongoDB, Express, Angular y Node.js) Web completa y funcional, a nivel de backend y frontend, usando únicamente tecnologías JavaScript..",
         "descripcion02Titulo": "Ésta red social(webapp SPA) tiene las siguientes funcionalidades",
         "descripcion02": ["Registrarnos e identificarnos en la plataforma.", "Modificar nuestros datos.", "Subir una imagen de perfil.", "Seguir y dejar de seguir a cualquier usuario (follow y unfollow).",
-            "Hacer publicaciones con texto e imagenes.", "Ver las publicaciones de la gente que seguimos en el timeline.", "Ver mi perfil de usuario y el del resto de personas.", "Recibir y enviar mensajes privados (MD)"
+            "Hacer publicaciones con texto e imagenes.", "Ver las publicaciones de la gente que seguimos en el timeline.", "Ver mi perfil de usuario y el del resto de personas.", "Recibir y enviar mensajes privados (MD)."
         ],
         "notas": ["En estos momentos la aplicación no tiene la funcionalidad de subir imágenes al servidor ya que Heroku no lo permite.", "Se están estudiando posibilidades."],
         "url": "https://coronavirusmetting.herokuapp.com/",
@@ -61,10 +61,10 @@
     },
     "proyect-10": {
         "url": "https://www.muchoruidoypocasluces.com",
-        "subtitulo": "",
-        "descripcion": "Página web administrada por Angular y Firebase.",
-        "descripcion02": ["Desplegar una aplicación a un sitio web. ", "Uso de GitHub Pages para desplegar sitios y aplicaciones web."],
-        "descripcion02Titulo": "Portafolio personal ",
+        "subtitulo": "Portafolio personal",
+        "descripcion": "Página web administrada por Angular y Firebase. Gracias a Firebase no se usa el backend que necesitaría para crear la aplicación.",
+        "descripcion02Titulo": "Características de la aplicación. ",
+        "descripcion02": ["Desplegar una aplicación a un sitio web. ", "Uso de GitHub Pages para desplegar sitios y aplicaciones web.", "Sin necesidad de un backend propio.", "Insercción de datos atraves de archivos json en la base de datos de Firebase.", "Modificación de una plantilla de https://www.pixeden.com/", "Insercción de imagenes en el storage de Firebase."],
         "urlGitHub": "https://github.com/jmtomeX/porfolio-angular"
     }
 }

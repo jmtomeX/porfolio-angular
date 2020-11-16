@@ -7,7 +7,8 @@ import { StorageService } from '../services/storage.service';
   providedIn: 'root'
 })
 export class ProyectosService {
-  proyectos: Proyecto[];
+  proyectos: Proyecto[] = [];
+  proyectosFiltrado: Proyecto[] = [];
   BASE_PATH = AppSettings.API_ENDPOINT;
   cargando = true;
   // tslint:disable-next-line:variable-name
@@ -18,6 +19,7 @@ export class ProyectosService {
         // casteamos a tipo Task
         if (data) {
           this.proyectos = (data as unknown as Proyecto[]);
+          this.cargando = false;
         }
       });
     this.loadProjects();
@@ -25,6 +27,8 @@ export class ProyectosService {
 
   // tslint:disable-next-line:typedef
   private loadProjects() {
+    
+
     this.http.get(this.BASE_PATH + '/proyectos_idx.json/')
       .subscribe((resp: Proyecto[]) => {
         // comprobamos que llegan todos los datos de cada tarea
@@ -45,6 +49,14 @@ export class ProyectosService {
   getProjectDescriptions(id: string) {
     return this.http.get(this.BASE_PATH + '/proyectos/' + id + '.json');
   }
+
+  searchProject(termino: string) {
+    this.proyectosFiltrado = this.proyectos.filter(project => {
+      return this.proyectos;
+    });
+    console.log(this.proyectosFiltrado);
+  }
+
 }
 
 

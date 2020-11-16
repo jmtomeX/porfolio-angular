@@ -18,7 +18,6 @@ export class HeaderComponent {
       return;
     }
     this.router.navigate(['/search', termino]);
-    console.log(termino);
   }
 
 }
