@@ -9,8 +9,8 @@ import { ProyectosService } from './services/proyectos.service';
 export class AppComponent {
   constructor(
     // tslint:disable-next-line:no-shadowed-variable
-    public InfoPaginaService: InfoPaginaService,
-    public ProjectService: ProyectosService
+    public InfoPaginaService: InfoPaginaService
+
   ) {
 
   }

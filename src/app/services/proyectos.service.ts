@@ -25,6 +25,7 @@ export class ProyectosService {
         }
       });
     this.loadProjects();
+
   }
 
   // tslint:disable-next-line:typedef
@@ -37,16 +38,17 @@ export class ProyectosService {
           const filtro = resp.map((proyecto) => Proyecto.fromJson(proyecto));
           // no añadimos si algún elemento viene como undefined
           const keys = Object.values(filtro).filter(x => x !== undefined);
-          this.tecnologiasLogos = this.knowTechnologies();
-          
-          resolve();
+          // this.tecnologiasLogos = this.knowTechnologies();
+
+          resolve('Cargado con exito');
           // tslint:disable-next-line:no-string-literal
           setTimeout(() => {
             this.proyectos = keys;
             this.cargando = false;
             // cargamos la base de datos en el storage
             this._localStorage.setObject('proyectos', this.proyectos);
-          }, 1000);
+            this.tecnologiasLogos = this.knowTechnologies();
+          }, 500);
         });
     });
   }
@@ -58,12 +60,14 @@ export class ProyectosService {
     if (this.proyectos.length === 0) {
       // esperar a cargar productos
       this.loadProjects()
-        .then(() => {
+        .then((value) => {
+          console.log(value);
           // aplicar filtro
           this.filterProjects(termino);
         });
     }
     else {
+ 
       // aplicar filtro
       this.filterProjects(termino);
     }

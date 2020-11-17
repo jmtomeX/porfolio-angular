@@ -5,7 +5,6 @@ import { Curso } from '../models/curso';
 })
 export class FiltrarRamasPipe implements PipeTransform {
   transform(value: Curso[], ...args: unknown[]): unknown {
-    console.log(value);
     let branchOrder: Curso[];
     branchOrder = value.filter(x => x.rama === 'informatica').sort((a, b) => {
       if (a.anno < b.anno) {

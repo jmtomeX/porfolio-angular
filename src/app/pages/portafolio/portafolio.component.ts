@@ -13,7 +13,7 @@ export class PortafolioComponent implements OnInit {
     private router: Router) { }
 
   ngOnInit(): void {
-    console.log(this.projectService.tecnologiasLogos);
+
   }
   search(logo: string) {
     this.router.navigate(['./search/' + logo]);
