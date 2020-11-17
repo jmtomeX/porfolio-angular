@@ -1,11 +1,11 @@
 import { Pipe, PipeTransform } from '@angular/core';
 import { Curso } from '../models/curso';
 @Pipe({
-  name: 'filtrarRamas'
+  name: 'filtrarRamas',
 })
 export class FiltrarRamasPipe implements PipeTransform {
-
   transform(value: Curso[], ...args: unknown[]): unknown {
+    console.log(value);
     let branchOrder: Curso[];
     branchOrder = value.filter(x => x.rama === 'informatica').sort((a, b) => {
       if (a.anno < b.anno) {

@@ -38,6 +38,7 @@ export class ProyectosService {
           // no añadimos si algún elemento viene como undefined
           const keys = Object.values(filtro).filter(x => x !== undefined);
           this.tecnologiasLogos = this.knowTechnologies();
+          
           resolve();
           // tslint:disable-next-line:no-string-literal
           setTimeout(() => {
@@ -48,9 +49,6 @@ export class ProyectosService {
           }, 1000);
         });
     });
-
-
-
   }
   getProjectDescriptions(id: string) {
     return this.http.get(this.BASE_PATH + '/proyectos/' + id + '.json');
@@ -78,7 +76,6 @@ export class ProyectosService {
   private filterProjects(termino: string) {
     termino = termino.toLowerCase();
     this.proyectosFiltrado = [];
-    const Tecnarray: string[] = [];
     this.proyectos.forEach(proyecto => {
       // pasar a minúsculas los elementos del array de tecnologías
       proyecto.tecnologias.forEach(tecnologia => {

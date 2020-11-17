@@ -29,13 +29,13 @@ export class InfoPaginaService {
 
   // leer formación de la base de datos firebase
   private loadFormation() {
+
     this.http.get(this.BASE_PATH)
       .subscribe((resp: Curso[]) => {
         // comprobamos que llegan todos los datos de cada tarea
-        // const map = resp.map((curso) => Curso.fromJson(curso));
+        const filtro = resp.map((curso) => Curso.fromJson(curso));
         // no añadimos si algún elemento viene como undefined
-        // const keys = Object.values(map).filter(x => x !== undefined);
-        // tslint:disable-next-line:no-string-literal
+        const keys = Object.values(filtro).filter(x => x !== undefined);
         this.cursos = resp;
       });
   }

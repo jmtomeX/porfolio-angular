@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { InfoPaginaService } from './services/info-pagina.service';
+import { ProyectosService } from './services/proyectos.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,7 +8,9 @@ import { InfoPaginaService } from './services/info-pagina.service';
 })
 export class AppComponent {
   constructor(
-    public InfoPaginaService: InfoPaginaService
+    // tslint:disable-next-line:no-shadowed-variable
+    public InfoPaginaService: InfoPaginaService,
+    public ProjectService: ProyectosService
   ) {
 
   }

@@ -15,9 +15,9 @@
             </div>
             <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right rk-portfolio-details ">
                 <p class="rk-portfolio-inner-client "><span class="ae-u-bolder ">Ubicación del proyecto y otros datos</span></p>
-                <p class="au-underline rk-portfolio-inner-website "><a href="{{descriptionProject.url}} " target="_blank " class="ae-kappa ">Ir a la aplicación</a></p>
+                <p class="au-underline rk-portfolio-inner-website " *ngIf="descriptionProject.url"><a href="{{descriptionProject.url}} " target="_blank " class="ae-kappa ">Ir a la aplicación</a></p>
                 <p class="au-underline rk-portfolio-inner-website " *ngIf="descriptionProject.urlGitHub ">
-                    <a target="_blank " href="{{descriptionProject.urlGitHub}} " class="rk-social-btn ">
+                    <a target="_blank" href="{{descriptionProject.urlGitHub}} " class="rk-social-btn ">
                         <svg>
                   <use type="image/svg+xml " xlink:href="assets/img/symbols.svg#icon-github "></use>
                 </svg>
