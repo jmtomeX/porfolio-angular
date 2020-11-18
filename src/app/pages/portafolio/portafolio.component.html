@@ -1,9 +1,9 @@
 <section class="ae-container-fluid ae-container-fluid--inner rk-portfolio">
     <!-- Tecnologías Logos-->
-    <div class="blog-info__excerpt logos-info">
+    <div class="blog-info__excerpt logos-info projects-main">
         <div class="logos" *ngFor="let logo of projectService.tecnologiasLogos ">
-            <a (click)="search(logo)">
-                <img class="logo " width="55" height="55" src="assets\img\logos_lenguajes\{{logo}}.svg" alt="Logo {{logo}} ">
+            <a class="logo" (click)="search(logo)">
+                <img width="55" height="55" src="assets\img\logos_lenguajes\{{logo}}.svg" alt="Logo {{logo}} ">
             </a>
         </div>
     </div>

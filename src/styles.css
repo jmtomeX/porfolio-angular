@@ -70,19 +70,30 @@
                 }
                 
                 .logos {
+                    height: 100px;
+                    width: 100px;
+                    text-align: center;
                     margin: .3em;
                     float: left;
-                    /* or inline-flex */
+                    display: flex;
+                    flex-direction: column;
+                    align-items: baseline;
                 }
                 
                 .logos:hover {
-                    filter: hue-rotate(180deg);
-                    -webkit-filter: hue-rotate(180deg);
+                    background-color: rgb(251, 251, 251);
+                }
+                
+                .logos .logo {
+                    align-self: flex-end;
+                    padding: auto;
+                    margin: auto;
                 }
                 
                 div.blog-info__excerpt.logos-info {
+                    position: relative;
                     width: 90%;
-                    height: 100px;
+                    height: 200px;
                     padding-bottom: 2em;
                     clear: both;
                 }

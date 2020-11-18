@@ -38,7 +38,6 @@ export class ProyectosService {
           const filtro = resp.map((proyecto) => Proyecto.fromJson(proyecto));
           // no añadimos si algún elemento viene como undefined
           const keys = Object.values(filtro).filter(x => x !== undefined);
-          // this.tecnologiasLogos = this.knowTechnologies();
 
           resolve('Cargado con exito');
           // tslint:disable-next-line:no-string-literal
