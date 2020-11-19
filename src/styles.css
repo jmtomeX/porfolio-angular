@@ -56,6 +56,48 @@
                     -webkit-animation-name: fadeIn;
                     animation-name: fadeIn
                 }
+                /*Entrada de logos*/
+                
+                @-webkit-keyframes backInLeft {
+                    0% {
+                        -webkit-transform: translateX(-2000px) scale(.7);
+                        transform: translateX(-2000px) scale(.7);
+                        opacity: .7
+                    }
+                    80% {
+                        -webkit-transform: translateX(0) scale(.7);
+                        transform: translateX(0) scale(.7);
+                        opacity: .7
+                    }
+                    to {
+                        -webkit-transform: scale(1);
+                        transform: scale(1);
+                        opacity: 1
+                    }
+                }
+                
+                @keyframes backInLeft {
+                    0% {
+                        -webkit-transform: translateX(-2000px) scale(.7);
+                        transform: translateX(-2000px) scale(.7);
+                        opacity: .7
+                    }
+                    80% {
+                        -webkit-transform: translateX(0) scale(.7);
+                        transform: translateX(0) scale(.7);
+                        opacity: .7
+                    }
+                    to {
+                        -webkit-transform: scale(1);
+                        transform: scale(1);
+                        opacity: 1
+                    }
+                }
+                
+                .animate__backInLeft {
+                    -webkit-animation-name: backInLeft;
+                    animation-name: backInLeft
+                }
                 /*
                 Color del Loading
                 */
@@ -81,7 +123,8 @@
                 }
                 
                 .logos:hover {
-                    background-color: rgb(251, 251, 251);
+                    animation: rubberBand;
+                    animation-duration: 1s;
                 }
                 
                 .logos .logo {
@@ -90,10 +133,32 @@
                     margin: auto;
                 }
                 
-                div.blog-info__excerpt.logos-info {
+                .logos-info {
                     position: relative;
                     width: 90%;
                     height: 200px;
                     padding-bottom: 2em;
                     clear: both;
+                    display: inline-block;
+                    margin: 0 0.5rem;
+                    animation: bounceInLeft;
+                    /* referring directly to the animation's @keyframe declaration */
+                    animation-duration: 2s;
+                    /* don't forget to set a duration! */
+                }
+                
+                .enter-search {
+                    animation: bounceOutUp;
+                    animation-duration: 2s;
+                }
+                
+                div.ae-masonry.ae-masonry-md-2.ae-masonry-xl-2 {
+                    animation: backInUp;
+                    animation-duration: 1s;
+                }
+                
+                h1.blog-info__title,
+                h2.blog-info__title {
+                    animation: backInUp;
+                    animation-duration: 1s;
                 }

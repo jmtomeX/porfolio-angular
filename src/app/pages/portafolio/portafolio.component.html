@@ -1,8 +1,8 @@
-<section class="ae-container-fluid ae-container-fluid--inner rk-portfolio">
+<section class="ae-container-fluid ae-container-fluid--inner rk-portfolio" #divLogo>
     <!-- Tecnologías Logos-->
     <div class="blog-info__excerpt logos-info projects-main">
         <div class="logos" *ngFor="let logo of projectService.tecnologiasLogos ">
-            <a class="logo" (click)="search(logo)">
+            <a class="logo" (click)="search(logo, true)">
                 <img width="55" height="55" src="assets\img\logos_lenguajes\{{logo}}.svg" alt="Logo {{logo}} ">
             </a>
         </div>
@@ -34,7 +34,7 @@
     <!-- Fin loading -->
 
     <div class="blog-info padding-bottom">
-        <h2 class="blog-info__title">Proyectos Web</h2>
+        <h1 class="blog-info__title">Proyectos Web</h1>
     </div>
     <div class="ae-masonry ae-masonry-md-2 ae-masonry-xl-2">
 

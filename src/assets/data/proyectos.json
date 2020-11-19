@@ -24,7 +24,7 @@
         "descripcion": "Proyecto que usa comunicación web bidireccional en tiempo real entre cliente y servidor sobre un único socket TCP.",
         "url": "https://app-chat-javascript.herokuapp.com/",
         "subtitulo": "",
-        "urlGithub": ""
+        "urlGithub": "https://github.com/jmtomeX/NodeJS/tree/master/curso-sockets"
     },
     "proyect-6": {
         "descripcion": "Juego en el que los usuarios deben de hacertar el tiempo que estará un partido sin marcar un gol.",
