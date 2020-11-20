@@ -14,6 +14,9 @@ import { ItemComponent } from './pages/item/item.component';
 import { FiltrarRamasPipe } from './pipes/filtrar-ramas.pipe';
 import { OrderProjectsPipe } from './pipes/order-projects.pipe';
 import { SearchComponent } from './pages/search/search.component';
+import { FormsModule } from '@angular/forms';
+import { MessageService } from './services/message.service';
+import { ContactComponent } from './pages/contact/contact.component';
 
 
 @NgModule({
@@ -26,14 +29,16 @@ import { SearchComponent } from './pages/search/search.component';
     ItemComponent,
     FiltrarRamasPipe,
     OrderProjectsPipe,
-    SearchComponent
+    SearchComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [MessageService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
