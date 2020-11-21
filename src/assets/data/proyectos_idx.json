@@ -67,7 +67,7 @@
      "cod": "proyect-11"
  }, {
      "nombre": "Aplicaciones moviles realizadas con Android",
-     "tecnologias": ["android"],
+     "tecnologias": ["android", "java"],
      "anno": "2020",
      "urlImg": "assets/img/logos_lenguajes/android.svg",
      "cod": "proyect-12"

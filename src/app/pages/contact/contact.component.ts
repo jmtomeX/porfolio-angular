@@ -1,9 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { ViewportScroller } from '@angular/common';
+import { Component, OnInit, setTestabilityGetter } from '@angular/core';
 import { MessageService } from 'src/app/services/message.service';
-// import * as _swal from 'sweetAlert';
-// import { SweetAlert } from 'sweetAlert/typings/core';
 
- // const swal: SweetAlert = _swal as any;
+import Swal from 'sweetalert2';
+import { element } from 'protractor';
+
+
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
@@ -11,13 +13,19 @@ import { MessageService } from 'src/app/services/message.service';
 })
 export class ContactComponent implements OnInit {
 
-  constructor(public _MessageService: MessageService) { }
+  constructor(public _MessageService: MessageService, private viewportScroller: ViewportScroller) { }
 
   ngOnInit(): void {
   }
+  onclickScroll(elementId: string): void {
+    this.viewportScroller.scrollToAnchor(elementId);
+  }
+
   contactForm(form) {
     this._MessageService.sendMessage(form).subscribe(() => {
-    //  swal('Formulario de contacto', 'Mensaje enviado correctamente', 'success');
+      setTimeout(() => {
+        Swal.fire('Formulario de contacto', 'Mensaje enviado correctamente', 'success');
+      }, 1000);
     });
   }
 

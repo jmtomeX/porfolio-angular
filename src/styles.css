@@ -4,6 +4,10 @@
                     --animate-duration: 1s;
                 }
                 
+                html {
+                    scroll-behavior: smooth;
+                }
+                
                 body,
                 header.ae-container-fluid.ae-container-fluid--full.rk-header {
                     background-color: rgba(227, 231, 233, .3);

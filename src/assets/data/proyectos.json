@@ -28,13 +28,13 @@
     },
     "proyect-6": {
         "descripcion": "Juego en el que los usuarios deben de hacertar el tiempo que estará un partido sin marcar un gol.",
-        "url": "https://www.muchoruidoypocasluces.com/goool.es/public/index.php",
+        "url": "https://www.muchoruidoypocasluces.com/goool.es",
         "subtitulo": "",
         "urlGitHub": "https://github.com/jmtomeX/Desarrollo-web-en-entorno-servidor/tree/master/ejer_06_juego_futbol"
     },
     "proyect-7": {
         "descripcion": "Desarrollo de una aplicación que gestiona la compra venta de productos de segunda mano, con un servicio para publicitarse en otras webs.",
-        "url": "https://www.muchoruidoypocasluces.com/forsale/public/index.php",
+        "url": "https://www.muchoruidoypocasluces.com/forsale",
         "subtitulo": "",
         "urlGitHub": "https://github.com/jmtomeX/Desarrollo-web-en-entorno-servidor/tree/master/ejer_07_anuncios"
     },
@@ -62,7 +62,9 @@
         "subtitulo": "Portafolio personal",
         "descripcion": "Página web administrada por Angular y Firebase. Gracias a Firebase no se usa el backend que necesitaría para crear la aplicación.",
         "descripcion02Titulo": "Características de la aplicación. ",
-        "descripcion02": ["Uso de GitHub Pages para desplegar sitios y aplicaciones web.", "Sin necesidad de un backend propio.", "Insercción de datos através de archivos json en la base de datos de Firebase.", "Modificación de una plantilla de https://www.pixeden.com/", "Insercción de imágenes en el storage de Firebase.", "Buscar aplicaciones por lenguajes de programación."],
+        "descripcion02": ["Uso de GitHub Pages para desplegar sitios y aplicaciones web.", "Sin necesidad de un backend propio.", "Buscador de tecnologías.",
+            "Visualización de tecnologías al hacer click en los logos.", "Insercción de datos através de archivos json en la base de datos de Firebase.", "Modificación de una plantilla de https://www.pixeden.com/", "Insercción de imágenes en el storage de Firebase.", "Buscar aplicaciones por lenguajes de programación."
+        ],
         "urlGitHub": "https://github.com/jmtomeX/porfolio-angular"
     },
     "proyect-11": {

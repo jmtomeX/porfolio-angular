@@ -11,14 +11,23 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'item/:id', component: ItemComponent },
   { path: 'search/:termino', component: SearchComponent },
-  // { path: 'contact', component: ContactComponent },
+  { path: 'contact', component: ContactComponent },
   { path: '**', pathMatch: 'full', redirectTo: 'home' },
 
 ];
 // useHash se usa para evitar los cambios en httaccess, para poder procesar las rutas ya que no existe una carpeta llamada home, about,...
 // los navegadores van a saber que lo que viene después del hash no es una carpeta sino una parte de la aplicación.
 @NgModule({
-  imports: [RouterModule.forRoot(routes, { useHash: true })],
+  imports: [
+    RouterModule.forRoot(routes, {
+      useHash: true,
+      onSameUrlNavigation: 'ignore',
+      anchorScrolling: 'enabled',
+      scrollPositionRestoration: 'enabled'
+    }),
+
+
+  ],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
