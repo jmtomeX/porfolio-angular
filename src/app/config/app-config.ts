@@ -4,7 +4,7 @@ export class AppSettings {
     }
     public static get API_MESSAGE(): string {
       //  return 'http://localhost:3000/formulario';
-        return 'https://jmtomex.github.io/server-mail/';
+        return 'https://git.heroku.com/servermailnode.git';
     }
     // tslint:disable-next-line: eofline
 }

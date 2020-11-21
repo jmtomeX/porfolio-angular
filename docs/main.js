@@ -605,7 +605,7 @@ class AppSettings {
     }
     static get API_MESSAGE() {
         //  return 'http://localhost:3000/formulario';
-        return 'https://jmtomex.github.io/server-mail/';
+        return 'https://git.heroku.com/servermailnode.git';
     }
 }
 
