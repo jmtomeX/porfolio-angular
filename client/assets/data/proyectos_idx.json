@@ -1,0 +1,86 @@
+ [{
+     "nombre": "Selector de colores rgba",
+     "anno": "2019",
+     "tecnologias": ["javascript", "css", "html"],
+     "urlImg": "https://firebasestorage.googleapis.com/v0/b/angular-html-b73cd.appspot.com/o/variables_css.jpg?alt=media&token=612fb0e7-034c-4566-a5e3-553d54bb84ec",
+     "cod": "proyect-1"
+ }, {
+     "nombre": "Agencia de viajes",
+     "tecnologias": ["html", "bootstrap"],
+     "anno": "2016",
+     "urlImg": "https://firebasestorage.googleapis.com/v0/b/angular-html-b73cd.appspot.com/o/bootstrap.jpg?alt=media&token=4c987286-ef48-4ced-8969-e95d0b00504f",
+     "cod": "proyect-2"
+ }, {
+     "nombre": "Aplicación de gastos",
+     "tecnologias": ["laravel", "adminlte", "php", "mysql"],
+     "anno": "2020",
+     "cod": "proyect-3",
+     "urlImg": "https://firebasestorage.googleapis.com/v0/b/angular-html-b73cd.appspot.com/o/gastos.jpg?alt=media&token=864f97f3-093d-4f1e-8204-eebaef922499"
+ }, {
+     "nombre": "Restaurante",
+     "tecnologias": ["html"],
+     "anno": "2014",
+     "cod": "proyect-4",
+     "urlImg": "https://firebasestorage.googleapis.com/v0/b/angular-html-b73cd.appspot.com/o/html2.jpg?alt=media&token=5cfe27b1-c3de-416f-b8a9-0cadafd3ceb9"
+ }, {
+     "nombre": "Chat javascript fullstack",
+     "tecnologias": ["html", "javascript", "node", "mongodb"],
+     "anno": "2019",
+     "cod": "proyect-5",
+     "urlImg": "https://firebasestorage.googleapis.com/v0/b/angular-html-b73cd.appspot.com/o/chatmode.jpg?alt=media&token=64956943-a8b4-4e5b-ad44-f2db1b836a3a"
+ }, {
+     "nombre": "Proyecto Gool.es",
+     "tecnologias": ["php", "ajax", "bulma", "jquery", "mysql"],
+     "anno": "2019",
+     "cod": "proyect-6",
+     "urlImg": "https://firebasestorage.googleapis.com/v0/b/angular-html-b73cd.appspot.com/o/php01.jpg?alt=media&token=e4643ebb-6fb3-404a-a9a4-c007e1ad6a1c"
+
+ }, {
+     "nombre": "Proyecto ForSale.es",
+     "anno": "2019",
+     "tecnologias": ["jquery", "php", "mysql", "semantic"],
+     "cod": "proyect-7",
+     "urlImg": "https://firebasestorage.googleapis.com/v0/b/angular-html-b73cd.appspot.com/o/php3.jpg?alt=media&token=227829e9-ea27-444c-bdf0-c511cea203e7"
+ }, {
+     "nombre": "Proyecto Mean Stack",
+     "tecnologias": ["javascript", "angular", "semantic", "mongodb", "node", "typescript"],
+     "anno": "2020",
+     "cod": "proyect-8",
+     "urlImg": "https://firebasestorage.googleapis.com/v0/b/angular-html-b73cd.appspot.com/o/angualr1.jpg?alt=media&token=e735f254-aab7-46ec-a40c-db72a2886a16"
+ }, {
+     "nombre": "Galería fotográfica js",
+     "tecnologias": ["javascript", "materializecss"],
+     "anno": "2019",
+     "urlImg": "https://firebasestorage.googleapis.com/v0/b/angular-html-b73cd.appspot.com/o/js_galeria.jpg?alt=media&token=4c763c01-36eb-4dac-a628-bce476609dfb",
+     "cod": "proyect-9"
+ }, {
+     "nombre": "Portafolio personal",
+     "tecnologias": ["firebase", "angular", "typescript"],
+     "anno": "2020",
+     "urlImg": "https://firebasestorage.googleapis.com/v0/b/angular-html-b73cd.appspot.com/o/portfafolio.jpg?alt=media&token=8353696e-84b2-46f5-992b-fb6122515f74",
+     "cod": "proyect-10"
+ }, {
+     "nombre": "Aplicación móvil de gestión de tareas",
+     "tecnologias": ["ionic", "angular", "typescript"],
+     "anno": "2020",
+     "urlImg": "assets/img/logos_lenguajes/ionic.svg",
+     "cod": "proyect-11"
+ }, {
+     "nombre": "Aplicaciones moviles realizadas con Android",
+     "tecnologias": ["android", "java"],
+     "anno": "2020",
+     "urlImg": "assets/img/logos_lenguajes/android.svg",
+     "cod": "proyect-12"
+ }, {
+     "nombre": "Aplicación backend con Node.js ",
+     "tecnologias": ["node"],
+     "anno": "2020",
+     "urlImg": "assets/img/logos_lenguajes/node.svg",
+     "cod": "proyect-13"
+ }, {
+     "nombre": "Proyecto de prácticas con Jquery",
+     "tecnologias": ["jquery", "ajax", "html", "javascript"],
+     "anno": "2018",
+     "urlImg": "https://firebasestorage.googleapis.com/v0/b/angular-html-b73cd.appspot.com/o/jquery.jpg?alt=media&token=27ebb9cd-5e7e-4c4a-9608-58bb96854e95",
+     "cod": "proyect-14"
+ }]
