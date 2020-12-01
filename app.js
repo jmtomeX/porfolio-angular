@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 console.log(path.join(__dirname, 'client'));
-app.set("port", process.env.PORT || 3000);
+app.set("port", process.env.PORT || PORT);
 app.use(express.static(path.join(__dirname, 'client'), { redirect: false }));
 
 app.post('/formulario', (req, res) => {
