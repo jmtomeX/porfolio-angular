@@ -1,0 +1,33 @@
+<footer class="ae-container-fluid rk-footer ">
+    <div class="ae-grid ae-grid--collapse">
+        <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-left">
+            <ul class="rk-menu rk-footer-menu">
+                <li class="rk-menu__item"><a routerLink="about" class="rk-menu__link">Sobre mí</a>
+                </li>
+                <li class="rk-menu__item"><a routerLink="home" class="rk-menu__link">Proyectos</a>
+                </li>
+            </ul>
+            <p class="rk-footer__text rk-footer__copy "> <span class="ae-u-bold">© </span><span class="ae-u-bolder">{{year}}
+          {{_service.info.titulo}} </span></p>
+        </div>
+
+        <div class="ae-grid__item item-lg-4 au-xs-ta-center">
+            <a target="_blank" [href]="_service.info.instagram" class="rk-social-btn ">
+                <svg>
+          <use xlink:href="assets/img/symbols.svg#icon-instagram"></use>
+        </svg>
+            </a>
+            <a target="_blank" [href]="_service.info.github" class="rk-social-btn ">
+                <svg>
+          <use type="image/svg+xml" xlink:href="assets/img/symbols.svg#icon-github"></use>
+        </svg>
+            </a>
+        </div>
+
+        <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right">
+            <p class="rk-footer__text rk-footer__contact "> <span class="ae-u-bold">Email: </span><span class="ae-u-bolder">
+          <a href="mailTo:{{_service.info.email}}" class="rk-dark-color ">{{_service.info.email}}</a></span></p>
+            <p class="rk-footer__text rk-footer__by"> <a target="_blank" href="http://{{_service.info.pagina_autor}}" class="ae-u-bolder">{{_service.info.pagina_autor}}</a></p>
+        </div>
+    </div>
+</footer>

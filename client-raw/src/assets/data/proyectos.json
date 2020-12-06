@@ -1,0 +1,113 @@
+{
+    "proyect-1": {
+        "descripcion": "Selector de colores rgba al seleccionar un color en las barras y generar una muestra lo imprime por pantalla, con la posibilidad de crear variables CSS.",
+        "url": "https://www.muchoruidoypocasluces.com/selector_rgb/selector_rgb.html",
+        "urlGitHub": "https://github.com/jmtomeX/Curso-css-Variables/tree/master/07_Selector_rgb_v2"
+    },
+    "proyect-2": {
+        "descripcion": "Proyecto realizado con Bootstrap, solo maquetación.",
+        "url": "https://www.muchoruidoypocasluces.com/agencia_viajes/agencia_viajes.html"
+
+    },
+    "proyect-3": {
+        "descripcion": "Aplicación web que permite la entrada y consulta de gastos. Gráfica, entrada de gastos manualmente o desde un archivo excell, aplicación móvil desarrollado con Android que utiliza el mismo servicio que la web.",
+        "url": "http://www.gastos.muchoruidoypocasluces.com/",
+        "password": "11111111",
+        "user": "iremti2@gmail.com",
+        "urlGithub": "https://github.com/jmtomeX/Laravel/tree/master/proyecto-v2-gastos/gastos_v2"
+    },
+    "proyect-4": {
+        "descripcion": "Proyecto realizado hecho en HTML puro, con el uso de una librería js para el lightBox",
+        "url": "https://www.muchoruidoypocasluces.com/mizo/mizo.html"
+    },
+    "proyect-5": {
+        "descripcion": "Proyecto que usa comunicación web bidireccional en tiempo real entre cliente y servidor sobre un único socket TCP.",
+        "url": "https://app-chat-javascript.herokuapp.com/",
+        "subtitulo": "",
+        "urlGithub": "https://github.com/jmtomeX/NodeJS/tree/master/curso-sockets"
+    },
+    "proyect-6": {
+        "descripcion": "Juego en el que los usuarios deben de hacertar el tiempo que estará un partido sin marcar un gol.",
+        "url": "https://www.muchoruidoypocasluces.com/goool.es",
+        "subtitulo": "Plataforma creada con PHP con el paradigma de Progrmación orientada a objetos.",
+        "urlGitHub": "https://github.com/jmtomeX/Desarrollo-web-en-entorno-servidor/tree/master/ejer_06_juego_futbol"
+    },
+    "proyect-7": {
+        "descripcion": "Desarrollo de una aplicación que gestiona la compra venta de productos de segunda mano, con un servicio para publicitarse en otras webs.",
+        "url": "https://www.muchoruidoypocasluces.com/forsale",
+        "subtitulo": "",
+        "urlGitHub": "https://github.com/jmtomeX/Desarrollo-web-en-entorno-servidor/tree/master/ejer_07_anuncios",
+        "descripcion02Titulo": "Funcionalidad de la aplicación",
+        "descripcion02": [
+            "Acceso privado (usuario/password) y distinción de distintos tipos de usuarios (Roles) que limitarán el acceso a las secciones de la aplicación. Se contemplan dos roles de usuario: Admin (acceso total), Editor (Acceso para usuarios que se registren y solo tienen la opción de ver y gestionar sus propios anuncios).",
+            "Gestión de datos básicos: Mantenimiento completo (Listar, añadir, editar y eliminar) distintas fuentes de datos (categorías, anuncios, etc.) que se utilizarán a la hora de crear los anuncios.",
+            "Seguimiento de visitas: Los usuarios podrán disponer de una estadística básica sobre la visualización de sus anuncios en la web y los clicks realizados sobre los mismos.",
+            "Servicios Web para exportar anuncios: Se realizará la programación necesaria mediante servicios Web, para que se puedan mostrar anuncios destacados en sitios Web externos, a modo de reclamo publicitario.", "Zona pública: Los visitantes del sitio Web podrán acceder sin necesidad de registro ni identificación, a consultar los anuncios puestos por los usuarios registrados.."
+        ]
+    },
+    "proyect-8": {
+        "subtitulo": "Red social MEAN Stack",
+        "descripcion": "Desarrollo de una red social con el MEAN Stack (MongoDB, Express, Angular y Node.js) Web completa y funcional, a nivel de backend y frontend, usando únicamente tecnologías JavaScript..",
+        "descripcion02Titulo": "Ésta red social(webapp SPA) tiene las siguientes funcionalidades",
+        "descripcion02": ["Registrarnos e identificarnos en la plataforma.", "Modificar nuestros datos.", "Subir una imagen de perfil.", "Seguir y dejar de seguir a cualquier usuario (follow y unfollow).", "Hacer publicaciones con texto e imagenes.",
+            "Ver las publicaciones de la gente que seguimos en el timeline.", "Ver mi perfil de usuario y el del resto de personas.", "Recibir y enviar mensajes privados (MD).", " Registro de usuarios con avatar.", "Modificación de datos de usuarios.", "Seguir o dejar de seguir a distintos usuarios.", "Búsqueda de usuarios por nombre, apellido o nick. Subida de publicaciones con imágenes.", "Borrar publicaciones subidas por el usuario. Los usuarios podrán mandar mensajes privados a otros usuarios.", " Comprobar el listado de usuarios. Comprobar el listado de publicaciones.", "Comprobar el listado de mensajes recibidos.", "Comprobar el listado de mensajes enviados por usuario.", " La zona publica solo habrá una descripción de la aplicación.", "La zona privada será solamente para usuarios registrados y tendrán acceso total."
+        ],
+        "notas": ["En estos momentos la aplicación no tiene la funcionalidad de subir imágenes al servidor ya que Heroku no lo permite.", "Se están estudiando posibilidades."],
+        "url": "https://coronavirusmetting.herokuapp.com/",
+        "urlGitHub": "https://github.com/jmtomeX/Red-Social-Angular-JS-Node-MongoDB"
+
+
+    },
+    "proyect-9": {
+        "url": "https://www.muchoruidoypocasluces.com/galeria_carrera/galery_mtb.html",
+        "subtitulo": "",
+        "descripcion": "Galería fotográfica de selección de imágenes en una galería mostrando las seleccionadas en un Modal",
+        "urlGitHub": "https://github.com/jmtomeX/Desarrollo-web-en-entorno-cliente/tree/master/ejer_galeria_carrera"
+    },
+    "proyect-10": {
+        "url": "https://www.muchoruidoypocasluces.com",
+        "subtitulo": "Portafolio personal",
+        "descripcion": "Página web administrada por Angular y Firebase. Gracias a Firebase no se usa el backend que necesitaría para crear la aplicación.",
+        "descripcion02Titulo": "Características de la aplicación. ",
+        "descripcion02": ["Uso de GitHub Pages para desplegar sitios y aplicaciones web.", "Sin necesidad de un backend propio.", "Buscador de tecnologías.",
+            "Visualización de tecnologías al hacer click en los logos.", "Insercción de datos através de archivos json en la base de datos de Firebase.", "Modificación de una plantilla de https://www.pixeden.com/", "Insercción de imágenes en el storage de Firebase.", "Buscar aplicaciones por lenguajes de programación."
+        ],
+        "urlGitHub": "https://github.com/jmtomeX/porfolio-angular"
+    },
+    "proyect-11": {
+        "subtitulo": "Aplicación móvil creada con Ionic para la gestión de una lista de tareas",
+        "descripcion": "Interfaces gráfica de usuario con mecanismos de persistencia y conectividad con la gestión de una CRUD",
+        "urlGitHub": "https://github.com/jmtomeX/PDAM-DAM/tree/modificacioTest/PMDM03/listaTareas",
+        "descripcion02Titulo": "Ésta aplicación tiene las siguientes funcionalidades",
+        "descripcion02": ["En la página inicial, se mostrarán las tareas pendientes en la parte superior", "Las tareas realizadas en la parte inferior con un encabezado.", " Las tareas sin realizar se ordenarán en función de si son importantes o no. Además las tareas importantes se mostrarán en negrita o con la letra grande o cursiva.", "La acciones que se pueden realizar sobre las tareas sin terminar son las siguientes: ", " Marcar como realizadas.Para ello se dispone de un checkbox(ion - checkbox).", " Borrar las tareas.Para ello se dispone de un botón que se encuentra dentro de un componente sliding(ion - item - sliding)", " Editar las tareas. Para ello se dispone de un botón que se encuentra dentro de un componente sliding.", "Las acciones que se pueden realizar sobre las tareas terminadas son: Marcar la tarea como pendiente.Para ello se debe hacer click sobre el elemento.", "Las tareas que están finalizadas tienen un encabezado.El encabezado y la lista solo deben ser visibles cuando haya elementos que mostrar.", "Haciendo uso del botón flotante, se añaden nuevas tareas.Al pulsar el botón, se abrirá una modal para solicitar los datos al usuario."]
+    },
+    "proyect-12": {
+        "subtitulo": "Juegos móvil y consumo de aplicación",
+        "descripcion": "Desarrollo de juegos para el teléfono y una aplicación que consume un servicio externo.",
+        "descripcion02Titulo": "Varias aplicaciones hechas con Android",
+        "descripcion02": ["Aplicación para la gestión de gastos que consume la aplicación de gastos hecha con Laravel", "Tragaperras", "Adivina Número", "Juego del ahorcado", "Cámara de Fotos"],
+        "urlGitHub": "https://github.com/jmtomeX/Android-2020"
+    },
+    "proyect-13": {
+        "descripcion": "Api Rest creada con una arquitectura con contenedores.",
+        "descripcion02Titulo": "Prácticas de diseño y desarrollo de software",
+        "descripcion02": ["Docker", "Microservicios", "APIs", "Angular", "NoSQL"],
+        "urlGitHub": "https://github.com/jmtomeX/forideas"
+    },
+    "proyect-14": {
+        "url": "https://www.muchoruidoypocasluces.com/proyecto_jquery/proyecto1.html",
+        "descripcion02Titulo": "Aplicación con consumo de datos de archivos json",
+        "descripcion02": ["Listado de post almacenados en un json y mostrado dinámicamente Cambiador de temas (cambio colores y fondos de la web).",
+            "Botón para subir al principio de la web haciendo una animación en el scroll automático.", " Hacer un formulario de login falso que nos permita guardar en el localstorage el nombre del usuario y en el caso de que exista la“ sesión” mostrarla.", "Sección“ Sobre mi” acordeón de jquery UI.", " Sección“ Reloj” Reloj dinámico."
+        ],
+        "urlGitHub": "https://github.com/jmtomeX/Master-en-JavaScript-2019/tree/master/Proyecto_01_js_jquery"
+    },
+    "proyect-15": {
+        "descripcion": "Aplicación realizada con PHP sin Programación orientada a objetos.",
+        "subtitulo": "Aplicación de enlaces a videos de Youtube",
+        "url": "https://www.muchoruidoypocasluces.com/biblioteca_videos",
+        "descripcion02Titulo": "Funcionalidades de la aplicación",
+        "descripcion02": ["Insercción de videos de youtube indicándole la url corta (NEvIn7iEdLg).", "Creación de usuarios, vídeos y enlaces de interes de los vídeos.", "Contador de visitas de vídeos de los usuarios.", "CRUD completo de vídeos."],
+        "urlGitHub": "https://github.com/jmtomeX/porfolio-angular"
+    }
+}

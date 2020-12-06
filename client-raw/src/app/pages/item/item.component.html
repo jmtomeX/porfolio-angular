@@ -1,0 +1,58 @@
+<section *ngIf="dataProject && descriptionProject">
+    <header class="ae-container-fluid ae-container-fluid--full">
+
+        <div class=" item-inside__meta " *ngFor="let logo of dataProject.tecnologias ">
+            <img class="logo " width="75" height="75" src="assets\img\logos_lenguajes\{{logo}}.svg " alt="Logo {{logo}} ">
+        </div>
+        <div class=" item-inside__meta ">
+            <h1 class="ae-u-bolder rk-portfolio-title ">{{dataProject.nombre}}</h1>
+        </div>
+    </header>
+    <div class="ae-container-fluid ">
+        <div class="ae-grid ae-grid--collapse rk-portfolio-info ">
+            <div class="ae-grid__item item-lg-8 item-sm--center au-xs-ta-center au-lg-ta-left ">
+                <h2 class="rk-portfolio-inner-title ">{{descriptionProject.subtitulo}}</h2>
+            </div>
+            <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right rk-portfolio-details ">
+                <p class="rk-portfolio-inner-client "><span class="ae-u-bolder ">Ubicación del proyecto y otros datos</span></p>
+                <p class="au-underline rk-portfolio-inner-website " *ngIf="descriptionProject.url"><a href="{{descriptionProject.url}} " target="_blank " class="ae-kappa ">Ir a la aplicación</a></p>
+                <p class="au-underline rk-portfolio-inner-website " *ngIf="descriptionProject.urlGitHub ">
+                    <a target="_blank" href="{{descriptionProject.urlGitHub}} " class="rk-social-btn ">
+                        <svg>
+                  <use type="image/svg+xml " xlink:href="assets/img/symbols.svg#icon-github "></use>
+                </svg>
+                    </a>
+                </p>
+                <p class=" rk-portfolio-inner-website rk-portfolio-inner-date " *ngIf="descriptionProject.user ">Usuario <span>{{descriptionProject.user}} </span></p>
+                <p class=" rk-portfolio-inner-website rk-portfolio-inner-date " *ngIf="descriptionProject.password ">Contraseña <span>{{descriptionProject.password}} </span></p>
+                <p class="ae-kappa ae-u-bold rk-portfolio-inner-date ">Realizada en {{dataProject.anno}}</p>
+            </div>
+        </div>
+    </div>
+    <div class="ae-container-fluid ae-container-fluid--inner rk-portfolio--inner ">
+        <div class="ae-grid ae-grid--collapse au-xs-ptp-1 ">
+            <div class="ae-grid__item item-lg-5 au-lg-ptp-1 ">
+                <h4 class="ae-u-bolder ">Descripción</h4>
+                <p class="ae-eta ">{{descriptionProject.descripcion}} </p>
+
+            </div>
+            <div class="ae-grid__item item-lg-6 item-lg--offset-1 "><img src="{{dataProject.urlImg}} " alt="imagen secundaria "></div>
+        </div>
+        <!-- <div class="ae-grid ae-grid--collapse ">
+            <div class="ae-grid__item item-lg-8 "><img src="assets/img/inner-2.jpg " alt="Urku Portfolio "></div>
+            <div class="ae-grid__item item-lg-3 item-lg--offset-1 au-lg-ptp-1 ">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <p class="au-mb-3 ">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit <br>in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                <p class="ae-u-bolder ">Right Box Small Text</p>
+            </div>
+        </div> -->
+        <div class="ae-grid ae-grid--collapse au-xs-ptp-1 au-xs-pbp-1 ">
+            <div class="ae-grid__item item-lg-8 item-lg--offset-2 " *ngIf="descriptionProject.descripcion02 ">
+                <h4 class="ae-u-bolder ">{{descriptionProject.descripcion02Titulo}}</h4>
+                <div class="ae-eta " *ngFor="let item of descriptionProject.descripcion02 ">
+                    <p class="ae-eta ">{{item}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
