@@ -27,8 +27,8 @@
         "urlGithub": ""
     },
     "proyect-6": {
-        "descripcion": "Juego en el que los usuarios deben de hacertar el tiempo que estará un partido sin marcar un gol.",
-        "url": "https://www.muchoruidoypocasluces.com/goool.es/public/index.php",
+        "descripcion": "Juego en el que los usuarios deben de acertar el tiempo que estará un partido sin marcar un gol.",
+        "url": "https://www.muchoruidoypocasluces.com/goool.es",
         "subtitulo": "",
         "urlGitHub": "https://github.com/jmtomeX/Desarrollo-web-en-entorno-servidor/tree/master/ejer_06_juego_futbol"
     },
@@ -39,7 +39,7 @@
         "urlGitHub": "https://github.com/jmtomeX/Desarrollo-web-en-entorno-servidor/tree/master/ejer_07_anuncios"
     },
     "proyect-8": {
-        "descripcion": "Desarrollo de una red social con el MEAN Stack (MongoDB, Express, Angular y Node.js) Web completa y funcional, a nivel de backend y frontend, usando únicamente tecnologías JavaScript..",
+        "descripcion": "Desarrollo de una red social con el MEAN Stack (MongoDB, Express, Angular y Node.js) Web completa y funcional, a nivel de backend y frontend, usando únicamente tecnologías JavaScript.",
         "descripcion02Titulo": "Ésta red social(webapp SPA) tiene las siguientes funcionalidades",
         "descripcion02": ["Registrarnos e identificarnos en la plataforma.", "Modificar nuestros datos.", "Subir una imagen de perfil.", "Seguir y dejar de seguir a cualquier usuario (follow y unfollow).",
             "Hacer publicaciones con texto e imagenes.", "Ver las publicaciones de la gente que seguimos en el timeline.", "Ver mi perfil de usuario y el del resto de personas.", "Recibir y enviar mensajes privados (MD)."
@@ -87,10 +87,18 @@
     },
     "proyect-14": {
         "url": "https://www.muchoruidoypocasluces.com/proyecto_jquery/proyecto1.html",
+        "descripcion": "Consumo de archivos Json",
         "descripcion02Titulo": "Aplicación con consumo de datos de archivos json",
         "descripcion02": ["Listado de post almacenados en un json y mostrado dinámicamente Cambiador de temas (cambio colores y fondos de la web).",
             "Botón para subir al principio de la web haciendo una animación en el scroll automático.", " Hacer un formulario de login falso que nos permita guardar en el localstorage el nombre del usuario y en el caso de que exista la“ sesión” mostrarla.", "Sección“ Sobre mi” acordeón de jquery UI.", " Sección“ Reloj” Reloj dinámico."
         ],
         "urlGitHub": "https://github.com/jmtomeX/Master-en-JavaScript-2019/tree/master/Proyecto_01_js_jquery"
+    },
+    "proyect-15": {
+        "url": "https://www.muchoruidoypocasluces.com/biblioteca_videos/",
+        "descripcion": "Aplicación CRUD realizada en PHP",
+        "descripcion02Titulo": "Gestión una biblioteca de vídeos de Youtube",
+        "descripcion02": ["Registro de usuarios y eliminación de usuarios.", "Insercción de enlaces de Youtube con persistencia en MySql con el CRUD completo para la insercción de enlaces.", "Contador de videos vistos por los usuarios.", "Insercción de enlaces de interes de los videos."],
+        "urlGitHub": "https://github.com/jmtomeX/Desarrollo-web-en-entorno-servidor/tree/master/biblioteca_videos"
     }
 }
